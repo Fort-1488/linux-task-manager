@@ -38,7 +38,7 @@ std::vector<ProcessInfo> ProcessReader::getAllProcesses()
                 iss >> proc.name;
             } else if (key == "State:") {
                 iss >> proc.state;
-            } else if (key == "VmRss:") {
+            } else if (key == "VmRSS:") {
                 iss >> proc.memorykb;
             }
         }
